@@ -1,5 +1,6 @@
-﻿using Mamont.Events;
-using Mamont.Events.Signals;
+﻿
+using Mamont.EventsBus;
+using Mamont.EventsBus.Signals;
 
 using UnityEngine;
 

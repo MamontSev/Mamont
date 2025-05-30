@@ -1,6 +1,6 @@
 ﻿using Mamont.Data.SaveData;
-using Mamont.Events;
-using Mamont.Events.Signals;
+using Mamont.EventsBus;
+using Mamont.EventsBus.Signals;
 using Mamont.Log;
 
 namespace Mamont.Data.DataControl.Resources

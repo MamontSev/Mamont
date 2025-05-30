@@ -29,7 +29,7 @@ namespace Mamont.Gameplay.Control.Damage
 			_radius = radius;										   
 			_damageCenter = damageCenter;
 			_damageEdge = damageEdge;
-			GetComponent<Rigidbody>().linearVelocity = linearVelocity;
+			GetComponent<Rigidbody>().velocity = linearVelocity;
 		}
 
 		private void OnCollisionEnter( Collision collision )

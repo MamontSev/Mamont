@@ -4,8 +4,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-using Mamont.Static;
-
 #if UNITY_EDITOR
 using Unity.EditorCoroutines.Editor;
 

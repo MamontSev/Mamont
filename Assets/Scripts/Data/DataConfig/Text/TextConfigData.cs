@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-using Mamont.Data.DataControl.HeroInventory;
 using Mamont.Data.DataControl.Language;
 using Mamont.Log;
 
@@ -135,14 +134,6 @@ namespace Mamont.Data.DataConfig.Text
 		private bool ValidateEnum( Type enumType , int textCount )
 		{
 			int count = Enum.GetNames(enumType).Length;
-			return count == textCount;
-		}
-
-		private bool ValidateHeroInventoryItemName( int textCount )
-		{
-			int typeCount = Enum.GetNames(typeof(HeroInventoryItemType)).Length;
-			int rarityCount = Enum.GetNames(typeof(HeroInventoryItemRarity)).Length;
-			int count = typeCount * rarityCount;
 			return count == textCount;
 		}
 

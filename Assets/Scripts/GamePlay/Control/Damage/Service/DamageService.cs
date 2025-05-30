@@ -66,7 +66,6 @@ namespace Mamont.Gameplay.Control.Damage
 			{
 				if( damageList[i] == null )
 				{
-					Debug.Log("obj is null");
 					continue;
 				}
 				if( damageList[i].HealthControl.MayDamageMe() == false )
@@ -144,7 +143,6 @@ namespace Mamont.Gameplay.Control.Damage
 			{
 				if( _toxicCloudTargetList[i] == null )
 				{
-					Debug.Log("obj is null");
 					continue;
 				}
 				if( _toxicCloudTargetList[i].HealthControl.MayDamageMe() == false )
@@ -219,8 +217,6 @@ namespace Mamont.Gameplay.Control.Damage
 				float distK = 1 - ( distToCenter / radius );
 				float damageDelta = damageCenter - damageEdge;
 				float newDamage = ( damageEdge + damageDelta * distK ) * damage;
-
-				//Debug.Log($"{_damageBombList[i].Name}; distToCenter {distToCenter}; distK {distK};  damageDelta {damageDelta}; damage {damage}; newDamage {newDamage} ");
 
 				_damageBombList[i].HealthControl.DamageMe(newDamage , DamageType.Bomb);
 			}

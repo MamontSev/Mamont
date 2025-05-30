@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using Mamont.Static;
-
 using Manmont.Tools;
 
 #if UNITY_EDITOR
@@ -17,8 +15,8 @@ namespace Mamont.Data.DataConfig.Mob
 	[CreateAssetMenu(menuName = "Data/Mob/MobRangedLevelDataTable" , fileName = "MobRangedLevelDataTable.asset")]
 	public class MobRangedLevelDataTable:ScriptableObject
 	{
-		private string SheetId => GoogleSheetGridIds.SheetId;
-		private string GridId => "302436347";
+		private string SheetId => "";
+		private string GridId => "";
 #if UNITY_EDITOR
 		public bool Sync()
 		{

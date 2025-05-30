@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 
 using Mamont.Log;
-using Mamont.UI.General.ViewModels.PopUp;
 using Mamont.UI.MVVM;
 
 using UnityEngine;

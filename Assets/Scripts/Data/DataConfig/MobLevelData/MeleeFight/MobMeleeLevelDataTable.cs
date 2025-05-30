@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
 
-using Mamont.Static;
-
 using Manmont.Tools;
 
 #if UNITY_EDITOR

@@ -2,8 +2,8 @@
 
 using Mamont.Data.DataConfig.UI;
 using Mamont.Data.DataControl.Resources;
-using Mamont.Events;
-using Mamont.Events.Signals;
+using Mamont.EventsBus;
+using Mamont.EventsBus.Signals;
 
 using Manmont.Tools;
 

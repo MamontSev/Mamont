@@ -1,7 +1,7 @@
 ﻿using Mamont.Data.DataControl.Language.Storage;
 using Mamont.Data.SaveData;
-using Mamont.Events;
-using Mamont.Events.Signals;
+using Mamont.EventsBus;
+using Mamont.EventsBus.Signals;
 
 using UnityEngine;
 
@@ -46,12 +46,6 @@ namespace Mamont.Data.DataControl.Language
 		{
 			SystemLanguage.Russian => LanguageType.RU,
 			SystemLanguage.English => LanguageType.EN,
-			//SystemLanguage.German => Languages.DE,
-			//SystemLanguage.Spanish => Languages.ES,
-			//SystemLanguage.Italian => Languages.IT,
-			//SystemLanguage.French => Languages.FR,
-			//SystemLanguage.Portuguese => Languages.PT,
-			//SystemLanguage.Turkish => Languages.TR,
 			_ => LanguageType.RU
 		};
 

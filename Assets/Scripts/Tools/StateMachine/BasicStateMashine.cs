@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using UnityEngine;
-
 namespace Manmont.Tools.StateMashine
 {
 	public abstract class BasicStateMashine<T> where T: IState
